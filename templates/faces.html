@@ -32,8 +32,13 @@
             <button class="bt" type="file" id="upload" name="image" required="true" >2.Upload</button> -->
             </div>
           </div>
-          <h3> predict: {{ name }}  </h3> 
-          <img src="{{ url_for('static',filename='uploads/')}}{{ img_name }}" alt="" width="{{ w }}" height="300">
+          <br>
+          <div class="content" align="center">
+
+             <h3> predict: {{ name }}  </h3> 
+          <img src="{{ url_for('static',filename='uploads/')}}{{ img_name }}" alt="" width="{{ w }}" height="400">
+          </div>
+         
       </div>
   
    </section>
