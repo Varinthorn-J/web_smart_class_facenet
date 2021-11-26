@@ -24,8 +24,9 @@ body {
    */
   .navbar-fixed-top {
     border: 0;
-    background-color: #002f4d;
-    color: #ffffff;
+  
+    background-color: #428bca;
+    text-shadow: #ffffff;
   }
   
   /*
@@ -66,7 +67,8 @@ body {
   .nav-sidebar > .active > a,
   .nav-sidebar > .active > a:hover,
   .nav-sidebar > .active > a:focus {
-    color: #428bca;
+    color: #002f4d;
+    
     /* background-color: #428bca; */
   }
   
@@ -87,6 +89,7 @@ body {
   .main .page-header {
     margin-top: 0;
   }
+  
   
   
   /*
